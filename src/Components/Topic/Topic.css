@@ -30,3 +30,20 @@
 .btn-topic a {
     text-decoration: none;
 }
+
+
+@media only screen and (max-width:688px) {
+    .card {
+        border: 2px solid lightblue;
+        margin: 10% 20%;
+        padding: 10px;
+        border-radius: 15px;
+        width: 250px;
+        height: auto;
+
+    }
+
+    .card img {
+        width: 220px;
+    }
+}
