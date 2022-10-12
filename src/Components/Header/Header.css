@@ -1,7 +1,18 @@
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.nav-link {
+    margin-top: 25px;
+}
+
 .header a {
     text-decoration: none;
     margin-right: 15px;
-    padding: 2px 5px;
+    padding: 8px 5px;
+    margin-top: 10px;
 }
 
 .header a:hover {

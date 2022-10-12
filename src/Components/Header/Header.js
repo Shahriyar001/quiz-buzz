@@ -5,13 +5,18 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className='header'>
-            <nav>
-                <Link to='/home'>Home</Link>
-                <Link to='/topics'>Topics</Link>
-                <Link to='/statistics'>Statistics</Link>
-                <Link to='/blog'>Blog</Link>
+            <nav className='nav-style'>
+                <div>
+                    <h2>Quiz Buzz</h2>
+                </div>
+                <div className='nav-link'>
+                    <Link to='/home'>Home</Link>
+                    <Link to='/topics'>Topics</Link>
+                    <Link to='/statistics'>Statistics</Link>
+                    <Link to='/blog'>Blog</Link>
+                </div>
             </nav>
-            <h4>Quiz buzz</h4>
+            <h2>Quiz buzz</h2>
         </div>
     );
 };
