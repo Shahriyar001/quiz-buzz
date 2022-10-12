@@ -11,3 +11,21 @@
 .card img {
     width: 220px;
 }
+
+.btn-topic {
+    text-decoration: none;
+    padding: 8px 12px;
+    /* background-color: blueviolet; */
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+
+}
+
+.btn-topic:hover {
+    background-color: blueviolet;
+}
+
+.btn-topic link {
+    text-decoration: none;
+}

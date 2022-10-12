@@ -6,6 +6,7 @@ import Blog from './Components/Blog/Blog';
 import Statistics from './Components/Statistics/Statistics';
 import Main from './layouts/Main';
 import Topics from './Components/Topics/Topics';
+import TopicQuiz from './Components/TopicQuiz/TopicQuiz';
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,14 @@ function App() {
             return fetch('https://openapi.programming-hero.com/api/quiz');
           },
           element: <Topics></Topics>
+        },
+        {
+          path: '/topic/:topicId',
+          loader: async ({ params }) => {
+            // console.log(params.topicId);
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.topicId}`)
+          },
+          element: <TopicQuiz></TopicQuiz>
         }
       ]
     },
