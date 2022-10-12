@@ -1,7 +1,9 @@
 .quiz-com {
-    border: 2px solid blueviolet;
+    border: 2px solid skyblue;
+    border-radius: 10px;
     padding: 5px 10px;
     margin-top: 20px;
     margin-left: 25%;
     width: 50%;
+    padding: 10px 0;
 }

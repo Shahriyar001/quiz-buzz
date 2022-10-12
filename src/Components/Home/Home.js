@@ -3,8 +3,12 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <h3>This is the real home</h3>
+            <h1>Welcome in this educational website</h1>
+            <h3>Here we arrange a Quiz compition for biggenars, You can test yourself.</h3>
+            <img src="../images/quiz.jpg" alt="" />
+            <h3>To participate in this competition go to the 'Topics' section. </h3>
         </div>
+
     );
 };
 

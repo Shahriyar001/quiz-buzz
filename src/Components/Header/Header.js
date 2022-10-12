@@ -11,7 +11,7 @@ const Header = () => {
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/blog'>Blog</Link>
             </nav>
-            <p>Common header</p>
+            <h4>Quiz buzz</h4>
         </div>
     );
 };
